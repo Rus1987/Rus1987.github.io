@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Bild</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" type="text/css" href="wow-animation/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/icon/logo.png" type="image/x-icon">
+</head>
+<body>
+    <div id="app">
+        <header id="top" class="header">
+        <div class="conteiner">
+            <div class="header-wrapper">
+                <div class="header-logo">
+                <img class="header-logo-img" src="img/icon/logo.png" alt="Bild Logo">
+                </div>
+                <div class="header-menu">
+                <img class="header-menu-img" @click="show = !show" src="img/icon/menu-gamburger.png" alt="Bild Menu Burger">
+                </div>
+            </div>
+            <div class="header-title">РЕАЛИЗУЕМ КРУПНЕЙШИЕ<br>ПРОЕКТЫ В РОССИИ</div>
+            <div class="header-text">стадионы, газопроводы, мосты, дамбы</div>
+            <div class="header-card">
+                <img class="header-card-img wow slideInUp" src="img/img/numbers__item.png" alt="Bild Numbers">
+                <img class="header-card-img wow slideInUp animate" src="img/img/numbers__item.png" alt="Bild Numbers">
+                <img class="header-card-img wow slideInUp animate1" src="img/img/numbers__item.png" alt="Bild Numbers">
+                <img class="header-card-img wow slideInUp animate2" src="img/img/numbers__item.png" alt="Bild Numbers">
+            </div>
+        </div>
+        </header>
+        <aside v-show="show" transition="slide">
+            <ul class="aside-menu">
+                <li><a href="#port">портфолио</a></li>
+                <li><a href="#occup">наши услуги</a></li>
+                <li><a href="#part">наши партнёры</a></li>
+                <li><a href="#rev">отзывы</a></li>
+                <li><a href="#cont">наши контакты</a></li>
+                <li><a href="#top">вверх</a></li>
+            </ul>
+        </aside>
+    </div>
+    <main class="main">
+        <div class="conteiner">
+            <section class="main-projects">
+                <div id="port" class="main-project-title">НАШИ САМЫЕ БОЛЬШИЕ ПРОЕКТЫ</div>
+                <div class="main-project-card-wrapper">
+                    <div class="main-project-card">
+                    <div class="main-project-card-img">
+                        <img src="img/img/Rectangle 3.png" alt="Bild Foto">
+                    </div>
+                    <div class="main-project-card-rectangle">
+                        <img src="img/img/Rectangle 4.png" alt="">
+                    </div>
+                    <div class="main-project-card-title">Газпром Арена</div>
+                    <div class="main-project-card-text">Мы сделали самую красивую арену в Европе. Это открытие стало для нас прорывной точкой для разивтия на следующие десятилетия. Мы очень рады данному факту.</div>
+                    </div>
+                    <div class="main-project-card">
+                    <div class="main-project-card-img">
+                        <img src="img/img/Rectangle 3.png" alt="Bild Foto">
+                    </div>
+                    <div class="main-project-card-rectangle">
+                        <img src="img/img/Rectangle 4.png" alt="">
+                    </div>
+                    <div class="main-project-card-title">Газпром Арена</div>
+                    <div class="main-project-card-text">Мы сделали самую красивую арену в Европе. Это открытие стало для нас прорывной точкой для разивтия на следующие десятилетия. Мы очень рады данному факту.</div>
+                    </div>
+                    <div class="main-project-card">
+                    <div class="main-project-card-img">
+                        <img src="img/img/Rectangle 3.png" alt="Bild Foto">
+                    </div>
+                    <div class="main-project-card-rectangle">
+                        <img src="img/img/Rectangle 4.png" alt="">
+                    </div>
+                    <div class="main-project-card-title">Газпром Арена</div>
+                    <div class="main-project-card-text">Мы сделали самую красивую арену в Европе. Это открытие стало для нас прорывной точкой для разивтия на следующие десятилетия. Мы очень рады данному факту.</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="main-connection">
+            <div class="conteiner">
+                <div class="main-connection-wrapper">
+                    <div class="main-connectio-slogan">
+                    <div class="main-connectio-slogan-title">САМЫЕ УМНЫЕ ПРОЕКТЫ</div>
+                    <div class="main-connectio-slogan-text">РЕАЛИЗУЕМ САМЫЕ СМЕЛЫЕ РЕШЕНИЯ В РОССИИ!</div>
+                    </div>
+                    <a href="#!" class="main-connection-btn">
+                        <img class="main-connection-btn-img" src="img/icon/mail.svg" alt="Mail Bild">
+                        <p class="main-connection-btn-text">ВАШ ЗАПРОС</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="main-occupation">
+            <div class="conteiner">
+                <div id="occup" class="main-occupation-title">ЧЕМ МЫ ЗАНИМАЕМСЯ?</div>
+                <div class="main-occupation-wrapper">
+                    <div class="main-occupation-wrapper-card wow zoomIn">
+                        <img src="img/img/Group.png" alt="Group Bild">
+                    </div>
+                    <div class="main-occupation-wrapper-card wow zoomIn animate1">
+                        <img src="img/img/Group.png" alt="Group Bild">
+                    </div>
+                    <div class="main-occupation-wrapper-card wow zoomIn animate2">
+                        <img src="img/img/Group.png" alt="Group Bild">
+                    </div>
+                    <div class="main-occupation-wrapper-card wow zoomIn">
+                        <img src="img/img/Group.png" alt="Group Bild">
+                    </div>
+                    <div class="main-occupation-wrapper-card wow zoomIn animate1">
+                        <img src="img/img/Group.png" alt="Group Bild">
+                    </div>
+                    <div class="main-occupation-wrapper-card wow zoomIn animate2">
+                        <img src="img/img/Group.png" alt="Group Bild">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="question">                         
+            <section class="main-answers">
+                <div class="conteiner" >
+                    <div class="main-answers-title">ОТВЕТЫ НА ВОПРОСЫ</div>
+                    <div class="main-answers-wrapper">
+                        <div class="main-answers-wrapper-question" v-for="q of questions">
+                        <div @click="toggleShow(q)">{{q.question}}</div>
+                            <transition name="fade">
+                                <p class="main-answers-wrapper-text" :class="q.show ? 'active' : '' ">
+                                    {{q.description}}
+                                </p>
+                            </transition>
+                        </div>                    
+                        
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="main-partners">
+            <div class="conteiner">
+                <div id="part" class="main-partners-title">наши партнёры</div>
+                <div class="main-partners-wrapper">
+                    <a href="#!">
+                        <img class="main-partners-wrapper-img" src="img/img/image.png" alt="Bild Partners">
+                    </a>
+                    <a href="#!">
+                        <img class="main-partners-wrapper-img" src="img/img/image.png" alt="Bild Partners">
+                    </a>
+                    <a href="#!">
+                        <img class="main-partners-wrapper-img" src="img/img/image.png" alt="Bild Partners">
+                    </a>
+                    <a href="#!">
+                        <img class="main-partners-wrapper-img" src="img/img/image.png" alt="Bild Partners">
+                    </a>
+                    <a href="#!">
+                        <img class="main-partners-wrapper-img" src="img/img/image.png" alt="Bild Partners">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="main-reviews">
+            <div class="conteiner">
+                <div id="rev" class="main-reviews-title">отзывы о работе с нами</div>
+                <div class="main-reviews-row">
+                    <div class="main-reviews-wrapper">
+                        <div class="main-reviews-wrapper-card">
+                            <img class="main-reviews-wrapper-card-img" src="img/icon/“.svg" alt="Bild Icon">
+                            <p class="main-reviews-wrapper-card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов.</p>
+                        </div>
+                        <div class="main-reviews-name">Иванов Иван, <span class="main-reviews-name-subtext">ООО “Газпром-Арена”</span></div>
+                    </div>
+                    <div class="main-reviews-wrapper">
+                        <div class="main-reviews-wrapper-card">
+                            <img class="main-reviews-wrapper-card-img" src="img/icon/“.svg" alt="Bild Icon">
+                            <p class="main-reviews-wrapper-card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов.</p>
+                        </div>
+                        <div class="main-reviews-name">Иванов Иван, <span class="main-reviews-name-subtext">ООО “Газпром-Арена”</span></div>
+                    </div>
+                    <div class="main-reviews-wrapper">
+                        <div class="main-reviews-wrapper-card">
+                            <img class="main-reviews-wrapper-card-img" src="img/icon/“.svg" alt="Bild Icon">
+                            <p class="main-reviews-wrapper-card-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов.</p>
+                        </div>
+                        <div class="main-reviews-name">Иванов Иван, <span class="main-reviews-name-subtext">ООО “Газпром-Арена”</span></div>
+                    </div>
+                </div>
+            </div>  
+        </section>
+        <section class="main-connection">
+            <div class="conteiner">
+                <div class="main-connection-wrapper">
+                    <div class="main-connectio-slogan">
+                    <div class="main-connectio-slogan-title">ХОТИТЕ С НАМИ РАБОТАТЬ?</div>
+                    <div class="main-connectio-slogan-text">ОСТАВЬТЕ ЗАЯВКУ И МЫ СВЯЖЕМСЯ С ВАМИ!</div>
+                    </div>
+                    <a href="#!" class="main-connection-btn">
+                        <img class="main-connection-btn-img" src="img/icon/mail.svg" alt="Mail Bild">
+                        <p class="main-connection-btn-text">ВАШ ЗАПРОС</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="main-contacts">
+            <div class="conteiner">
+                <div id="cont" class="main-contacts-title">КОНТАКТЫ</div>
+                <div class="main-contacts-row">
+                    <div class="main-contacts-row-card">
+                        <img class="main-contacts-row-card-img" src="img/icon/1.svg" alt="Bild Icon">
+                        <div class="main-contacts-row-card-title">АДРЕС:</div>
+                        <div class="main-contacts-row-card-text">НЕВСКИЙ ПРОСПЕКТ 140,<br>ОФИС 140-142</div>
+                    </div>
+                    <div class="main-contacts-row-card">
+                        <img class="main-contacts-row-card-img" src="img/icon/2.svg" alt="Bild Icon">
+                        <div class="main-contacts-row-card-title">ТЕЛЕФОН:</div>
+                        <div class="main-contacts-row-card-text">8 (812) 111-22-33<br>8 (812) 111-22-33</div>
+                    </div>
+                    <div class="main-contacts-row-card">
+                        <img class="main-contacts-row-card-img" src="img/icon/3.svg" alt="Bild Icon">
+                        <div class="main-contacts-row-card-title">ВРЕМЯ РАБОТЫ:</div>
+                        <div class="main-contacts-row-card-text">ПН-СБ<br>10:00 - 20:00</div>
+                    </div>
+                    <div class="main-contacts-row-card">
+                        <img class="main-contacts-row-card-img" src="img/icon/4.svg" alt="Bild Icon">
+                        <div class="main-contacts-row-card-title">E-MAIL:</div>
+                        <a href="#!" class="main-contacts-row-card-text-link">INFO@VIP.RU</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <style>
+
+            .main-answers-wrapper-text{
+                display:none;
+            }
+
+            .main-answers-wrapper-text.active{
+                display:block;
+            }
+        </style>
+    </main>
+    <footer class="footer">
+        <div class="conteiner">
+            <div class="footer-wrapper">
+                <p class="footer-wrapper-copyright">© 2019 Строительная компания</p>
+                <p class="footer-wrapper-text">Разработано лучшей студей</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js"></script>
+    <script>
+        const array = [
+            {
+                show: false,
+                question: 'РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?',
+                description: '1 Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.'
+            },
+            {
+                show: false,
+                question: 'РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?',
+                description: '2 Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.'
+            },
+            {
+                show: false,
+                question: 'РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?',
+                description: '3 Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.'
+            },
+            {
+                show: false,
+                question: 'РАБОТАЕТЕ ЛИ ВЫ ПО 249 ФЗ?',
+                description: '4 Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.'
+            }
+        ]
+
+        new Vue({
+            el: "#app",
+            data: {
+                show: false
+            }
+        })
+        new Vue({
+            el: '#question',
+            data: {
+                
+                questions: array
+            },
+            methods: {
+                toggleShow(item) {
+                    return item.show = !item.show
+                    
+                }
+            }
+
+        })
+    </script>
+    <script src="wow-animation/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+</body>
+</html>
